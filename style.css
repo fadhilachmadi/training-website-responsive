@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+#page-1 {
+  background-image: url(./Assets/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 100vh;
+  color: white;
+}
+
+#page-1  h2 {
+  margin: 0;
+  text-align: center;
+  font-style: bold;
+  font-weight: bolder;
+  padding: 10em 0em;
+}
+
+.navbar {
+  background-color: black;
+  height: auto;
+  position: sticky;
+  top: 0;
+}
+
+.navbar  .logo {
+  padding: 0;
+  float: left;
+  text-align: left;
+  padding : 5px 0px 0px 5px;
+}
+
+.logo  img {
+  width: 30%;
+}
+
+.navbar  ul {
+  margin: 0;
+  list-style: none;
+  text-align: right;
+  padding: 0;
+}
+
+.navbar  ul  li {
+  display: inline-block;
+  padding: 20px 60px;
+}
+
+.navbar li a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar li a:link{
+  color: inherit;
+}
+
+#page-2 {
+  height: auto;
+  padding: 2em 0;
+}
+
+.page-2-content-top{
+  text-align: center;
+  height: auto;
+}
+
+.page-2-top-text{
+  font-size: 1.25em;
+  margin: 0 20em;
+  text-align: justify;
+}
+
+#page-2 img{
+  max-width: 15em;
+  margin-bottom: 1em;
+}
+
+.page-2-flex{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.page-2-content-bottom{
+  text-align: center;
+  height: auto;
+  display: inline-block;
+  margin: 3em 0em;
+}
+
+.page-2-content-bottom img{
+  max-width: 15em;
+}
+
+.page-2-bottom-text{
+  font-size: 1.25em;
+  margin: 0 2em;
+  text-align: justify;
+}
+
+#page-3 {
+  background-color: white;
+  margin: 2em;
+  text-align: center;
+  height: auto;
+}
+
+#page-3 img{
+  max-width: 19em;
+  margin-top: 2em;
+}
+
+#page-4 {
+  padding: 2em 2em;
+  background-color: white;
+  height: auto;
+}
+
+.contact-form{
+  display: inline-block;
+  width: 45%;
+  margin: 0px 0px 0px 5em;
+}
+
+.contact-form label{
+  font-size: 1.5em;
+}
+
+.contact-form input{
+  width: 90%;
+  height: 1.5em;
+}
+
+.btn-submit{
+  padding: 0.25em 0em;
+  background-color: teal;
+  color: white;
+  width: 90%;
+  font-size: 1.5em;
+}
+.contact-number{
+  display: inline-block;
+  margin-left: 10em;
+}
+.contact-number-box{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 4em;
+}
+.contact-number-box img{
+  width: 4em;
+  display: inline-block;
+}
+.contact-number-box p{
+  display: inline-block;
+  margin: 1em 5em 2em 5em;
+}
+
+footer{
+  margin: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  padding: 1em 0em;
+}
+
+
+
+

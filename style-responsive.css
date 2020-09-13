@@ -1,0 +1,73 @@
+@media only screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  #page-1 {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+  }
+
+  #page-1 h2 {
+    padding: 12em 2em;
+  }
+
+  .navbar .logo {
+    display: none;
+  }
+
+  .navbar ul li {
+    padding: 2em 1.75em;
+  }
+  .page-2-top-text {
+    margin: 0 2em;
+  }
+
+  .page-2-flex {
+    flex-wrap: wrap;
+  }
+
+  #page-4{
+    height: auto;
+  }
+
+  .contact-form {
+    margin: 0;
+    width: 100%;
+  }
+
+  .contact-form > input {
+    width: 95%;
+  }
+
+  .btn-submit{
+      width: 100%;
+      font-size: 1em;
+  }
+
+  .contact-number{
+    margin: 0;
+    padding: 3em 0em 0em;
+  }
+
+  .contact-number-box > p {
+    display: none;
+  }
+
+  .contact-number-box > img{
+    width: 2em;
+  }
+
+  .contact-number-box{
+    display: inline-block;
+    padding: 0em 3em 0em 0em ;
+  }
+
+  footer{
+    font-size: 1em;
+    padding: 1em 0em 0em;
+    height: 30vh;
+  }
+
+}
